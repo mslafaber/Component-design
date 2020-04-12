@@ -1,0 +1,13 @@
+body {
+  margin-right: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.topic {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  background-color: #E3E1E0;
+}
