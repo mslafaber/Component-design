@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #BF0603;
+}
+div.parent{
+  display: flex;
+  flex-wrap: wrap;
+}
+article, aside{
+  background-color: #FFF1D0;
+  padding: 2.5%;
+  }
+article{
+  width: 75%;
+  margin-right: 0.5%;
+}
+aside{
+  width: 24%;
+  margin-left: 0.5%;
+}
+section{
+  background-color: #E6C3A6;
+  padding: 2.5%;
+  margin: 1.5%;
+}
+div.subcontainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
+  grid-gap: 1em;
+}
+
+div.color{
+  display: grid;
+  height: 10em;
+  width: 10em;
+  justify-items: center;
+  align-items: center;
+}
+div.color h3{
+  background-color: white;
+  color: black;
+  padding: 1.5%;
+}
+
+h1,h2,h3{
+  font-family: Impact, Charcoal, sans-serif;
+  color: #BF0603;
+  font-weight: lighter;
+}
+p{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #080705;
+}
+p.heading{
+  font-family: Impact, Charcoal, sans-serif;
+}
+h1, p.h1{
+  font-size: 2.5em;
+}
+h2, p.h2{
+  font-size: 2em;
+}
+h3, p.h3{
+  font-size: 1.5rm;
+}
+
+@media screen and (max-width: 840px){
+  div.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  article{
+    width: 100%;
+    margin: 0.5%;
+  }
+  aside{
+    width: 100%;
+    margin: 0.5%;
+  }
+}
