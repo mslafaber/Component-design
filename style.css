@@ -37,6 +37,7 @@ div.color{
   width: 10em;
   justify-items: center;
   align-items: center;
+  border: black solid;
 }
 div.color h3{
   background-color: white;
