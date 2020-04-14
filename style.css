@@ -1,8 +1,11 @@
 body {
-  margin-right: 30px;
+  margin-right: 70px;
+  margin-left: 60px;
+  margin-top: 10px;
   border: 2px solid black;
   border-radius: 5px;
   overflow: hidden;
+  padding: 30px;
 }
 
 .topic {
@@ -10,4 +13,20 @@ body {
   color: black;
   font-size: 30px;
   background-color: #E3E1E0;
+}
+
+table {
+  border: 2px solid #080705;
+}
+
+.subtopic {
+  margin-top: 5px;
+  font-weight: bolder;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.primary {
+  font-size: 14px;
+  font-weight: bold;
 }
