@@ -15,8 +15,13 @@ body {
   background-color: #E3E1E0;
 }
 
-table {
-  border: 2px solid #080705;
+table, th, td {
+  border: 1.7px solid #080705;
+}
+
+img {
+  border: 1px solid black;
+  margin-top: 3px;
 }
 
 .subtopic {
