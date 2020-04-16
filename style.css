@@ -320,20 +320,20 @@ div.item h4{
     display: inline-block;
     font-size: 25px;
     font-weight: bold;
-    color: #ffffff;
+    color: #FFF1D0;
     margin: 55px;
     cursor: pointer;
     font-family: sans-serif;
-    transition: 3s;
+    transition: 1s;
     border-radius: 10px;
 }
 .button1:hover{
-    background-color: #f9f9fb;
+    background-color: #FFF1D0;
     color: #bf0603;
     border-radius:10px;
 }
 .button2{ border: none;
-    background-color: #f7f7f7;
+    background-color: #FFF1D0;
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
@@ -343,14 +343,18 @@ div.item h4{
     margin: 55px;
     cursor: pointer;
     font-family: sans-serif;
-    transition: 3s;
+<<<<<<< HEAD
+    transition: 1s;
+=======
+    transition: 50ms;
+>>>>>>> 074e4d138c5ad955bbc9eaccfcfaae9316a54614
     border-radius: 10px;
 
 }
 
 .button2:hover{
     background-color: #bf0603;
-    color:#f7f7f7;
+    color:#FFF1D0;
     border-radius:3px;
 }
 
@@ -364,19 +368,19 @@ div.item h4{
     font-weight: bold;
     width:200px;
     height:100px;
-    color: #ffffff;
+    color: #FFF1D0;
     margin: 55px;
     cursor: pointer;
     font-family: sans-serif;
-    transition: width 2s,height 3s;
+    transition: width 1s,height 1s;
     transition-property: width, height;
-    transition-duration: 2s,3s;
+    transition-duration: 1s,1s;
     transition-timing-function: ease,ease;
     transition-delay: 0s,0s;
     border-radius: 10px;
 }
 .button3:hover{
-    background-color: white;
+    background-color: #FFF1D0;
     color: #bf0603;
     font-size:45px;
     border-radius:15px;
@@ -385,7 +389,7 @@ div.item h4{
 }
 .button4 {
     border: none;
-    background-color: #fdfdff;
+    background-color: #FFF1D0;
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
@@ -397,35 +401,17 @@ div.item h4{
     margin: 55px;
     cursor: pointer;
     font-family: sans-serif;
-    transition: width 2s;
+    transition: width 1s;
     transition-timing-function: linear;
     border-radius: 10px;
 }
 .button4:hover{
     background-color: #bf0603;
-    color: #fdfdff;
+    color: #FFF1D0;
     font-size:40px;
     border-radius:15px;
     width:400px;
 }
-
-/*card styles start here*/
-
-/*.card {
-  box-shadow: 0 0 20px #080705;
-  width:80%;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  background-color: #FFF1D0;
-  color: black;
-  padding: 2.5%;
-  width: 312px;
-  border: 4px solid #BF0603;
-  border-radius: 12px;
-  margin-right: 10px;
-  margin-top: 5px;
-}*/
 div.card{
   width: 50%;
   display: grid;
@@ -441,27 +427,7 @@ img.cardImage{
 div.cardBar{
   display: flex;
 }
-/*
-.flex-parent {
-    display: flex;
-    flex-wrap: wrap;}
-
-    .card {
-      width: 100%;
-    }
-}
-.bodymenu {
-  background-color: #E6C3A6;
-  padding: 2%;
-}
-.menuitems {
-  background-color: #BF0603;
-  font-size: 24px;
-  color: #FFF1D0;
-}
-*/
-/*card styles end here*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   div.card{
     width: 100%;
   }
