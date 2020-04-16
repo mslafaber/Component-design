@@ -307,25 +307,26 @@ div.item h4{
 }
 /*Footer styles end here*/
 
+button{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 1.1em;
+}
 .button1 {
     border: none;
     background-color: #bf0603;
-    padding: 10px 30px;
+    padding: 2.5%;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
     font-weight: bold;
     color: #FFF1D0;
-    margin: 55px;
+    margin: 2.0%;
     cursor: pointer;
-    font-family: sans-serif;
-    transition: 1s;
+    transition: 0.4ms;
     border-radius: 10px;
 }
 .button1:hover{
-    background-color: #FFF1D0;
-    color: #bf0603;
-    border-radius:10px;
+    background-color: brown;
+    color: #FFF1D0;
 }
 .button2{ border: none;
     background-color: #FFF1D0;
