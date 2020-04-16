@@ -1,3 +1,8 @@
+html{
+    height: 100%;
+}
+
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -107,8 +112,6 @@ em{
     grid-column: 2 / 3;
   }
   header nav {
-    all: unset;
-
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
@@ -122,7 +125,6 @@ em{
     margin-bottom: 0;
   }
   nav a {
-    all: unset;
     opacity: 1;
     transition: none;
     position: relative;
@@ -166,7 +168,7 @@ nav {
   width: 100%;
   transform: scale(1,0);
   transform-origin: top;
-  transition: transform 400ms ease-in-out;*/
+  transition: transform 400ms ease-in-out;
 }
 
 nav ul {
@@ -301,7 +303,7 @@ div.item{
 div.item h4{
   color: #FFF1D0;
   padding: 0px;
-  align: center;
+  text-align: center;
 }
 
 .fa {
@@ -328,3 +330,99 @@ div.item h4{
   color: white;
 }
 /*Footer styles end here*/
+
+.button1 {
+    border: none;
+    background-color: #f7f7f7;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #bf0603;
+    margin: 55px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: 3s;
+    border-radius: 10px;
+}
+.button1:hover{
+    background-color: #bf0603;
+    color:#f7f7f7;
+    border-radius:3px;
+}
+.button2 {
+    border: none;
+    background-color: #bf0603;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 55px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: 3s;
+    border-radius: 10px;
+}
+.button2:hover{
+    background-color: #f9f9fb;
+    color: #bf0603;
+    border-radius:10px;
+}
+
+.button3 {
+    border: none;
+    background-color: #bf0603;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    width:200px;
+    height:100px;
+    color: #ffffff;
+    margin: 55px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: width 2s,height 3s;
+    transition-property: width, height;
+    transition-duration: 2s,3s;
+    transition-timing-function: ease,ease;
+    transition-delay: 0s,0s;
+    border-radius: 10px;
+}
+.button3:hover{
+    background-color: white;
+    color: #bf0603;
+    font-size:45px;
+    border-radius:15px;
+    width:300px;
+    height:200px;
+}
+.button4 {
+    border: none;
+    background-color: #fdfdff;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    width:200px;
+    height:100px;
+    color: #bf0603;
+    margin: 55px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: width 2s;
+    transition-timing-function: linear;
+    border-radius: 10px;
+}
+.button4:hover{
+    background-color: #bf0603;
+    color: #fdfdff;
+    font-size:40px;
+    border-radius:15px;
+    width:400px;
+}
