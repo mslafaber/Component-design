@@ -344,9 +344,12 @@ div.item h4{
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background-color: blue;
-  color: white;
-  padding: 2em;
+  background-color: #FFF1D0;
+  color: black;
+  padding: 1em;
+  width: 312px;
+  border: 4px solid #BF0603;
+  border-radius: 12px;
 }
 
 .flex-layout-one {
@@ -355,4 +358,15 @@ div.item h4{
   }
 }
 
+.bodymenu {
+  background-color: #E6C3A6;
+  color: black;
+  font-weight: bolder;
+}
+
+.menuitems {
+  background-color: #BF0603;
+  font-size: 24px;
+  color: #FFF1D0;
+}
 /*card styles end here*/
