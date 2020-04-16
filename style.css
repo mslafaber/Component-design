@@ -1,8 +1,3 @@
-html{
-    height: 100%;
-}
-
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -343,11 +338,7 @@ div.item h4{
     margin: 55px;
     cursor: pointer;
     font-family: sans-serif;
-<<<<<<< HEAD
     transition: 1s;
-=======
-    transition: 50ms;
->>>>>>> 074e4d138c5ad955bbc9eaccfcfaae9316a54614
     border-radius: 10px;
 
 }
