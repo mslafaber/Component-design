@@ -1,0 +1,139 @@
+html {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+p {
+    margin: 0.8em 0;
+    padding: 0;
+    font-family: Calibri;
+    line-height: 1.5;
+}
+
+.extra {
+    display: none;
+    position: relative;
+    animation: animatetop 0.5s
+}
+
+@keyframes animatetop {
+    from {
+        top: -100px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+p:hover .extra {
+    display: inline-block;
+}
+
+.hide {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p:hover .hide {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    padding: 20px;
+    font-family: "Edwardian Script ITC";
+    font-size: 6em;
+    font-weight: bold;
+    margin: 35px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: 0;
+    padding: 16px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 0;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    font-family: Calibri;
+}
+
+.card {
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    min-height: 280px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    margin: 60px 20px 40px 70px;
+    transition: height 1s;
+}
+
+.card:hover {
+    box-shadow: 0 15px 20px 0 rgba(139, 255, 130, 0.37);
+    border-bottom: 1px solid black;
+    height: 670px;
+}
+
+.card .heading {
+    position: relative;
+    height: 90px;
+    color: White;
+    background-color: #bf0603;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card .content {
+    font-size: 0.89em;
+    padding: 13px;
+    font-family: Consolas;
+    height: 80px;
+    transition: height 1s;
+}
+
+.card .content:hover {
+    height: 200px;
+}
+
+.card .button {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #bf0603;
+    margin: 55px;
+    cursor: pointer;
+    font-family: Consolas;
+
+    transition: 2s;
+
+}
+
+.card .button:hover {
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255);
+    border-radius: 2px;
+
+}
+
+
