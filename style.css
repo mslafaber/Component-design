@@ -271,7 +271,6 @@ nav a:hover {
   text-decoration: none;
   display: block;
   transform: none;
-  transform-origin: none;
   transition: none;
   opacity: 1;
 }
@@ -338,28 +337,7 @@ div.item h4{
 }
 /*Footer styles end here*/
 
-<<<<<<< HEAD
 .button1 {
-    border: none;
-    background-color: #f7f7f7;
-    padding: 10px 30px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    font-weight: bold;
-    color: #bf0603;
-    margin: 55px;
-    cursor: pointer;
-    font-family: sans-serif;
-    transition: 3s;
-    border-radius: 10px;
-}
-.button1:hover{
-    background-color: #bf0603;
-    color:#f7f7f7;
-    border-radius:3px;
-}
-.button2 {
     border: none;
     background-color: #bf0603;
     padding: 10px 30px;
@@ -374,10 +352,31 @@ div.item h4{
     transition: 3s;
     border-radius: 10px;
 }
-.button2:hover{
+.button1:hover{
     background-color: #f9f9fb;
     color: #bf0603;
     border-radius:10px;
+}
+.button2{ border: none;
+    background-color: #f7f7f7;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #bf0603;
+    margin: 55px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: 3s;
+    border-radius: 10px;
+
+}
+
+.button2:hover{
+    background-color: #bf0603;
+    color:#f7f7f7;
+    border-radius:3px;
 }
 
 .button3 {
@@ -434,7 +433,7 @@ div.item h4{
     border-radius:15px;
     width:400px;
 }
-=======
+
 /*card styles start here*/
 
 .card {
@@ -474,4 +473,4 @@ div.item h4{
   color: #FFF1D0;
 }
 /*card styles end here*/
->>>>>>> bb8bde6fd6ef1c23d38e0c16b0d3da8fa7e20b5a
+
