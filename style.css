@@ -1,148 +1,163 @@
 *, *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 :root {
-  --background: #FFF1D0;
+    --background: #FFF1D0;
 }
 body{
-  background-color: #BF0603;
+    background-color: #BF0603;
 }
 div.parent{
+<<<<<<< HEAD
+    display: flex;
+    flex-wrap: wrap;
+=======
   display: flex;
   flex-wrap: wrap;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+>>>>>>> fc3552f0afffbbfaf2f1019f88945d20067d200d
 }
 article, aside{
-  background-color: #FFF1D0;
-  padding: 2.5%;
-  }
+    background-color: #FFF1D0;
+    padding: 2.5%;
+}
 article{
-  width: 75%;
-  margin-right: 0.5%;
+    width: 75%;
+    margin-right: 0.5%;
 }
 aside{
-  width: 24%;
-  margin-left: 0.5%;
+    width: 24%;
+    margin-left: 0.5%;
 }
 section{
-  background-color: #E6C3A6;
-  padding: 2.5%;
-  margin: 1.5%;
+    background-color: #E6C3A6;
+    padding: 2.5%;
+    margin: 1.5%;
 }
 div.subcontainer{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
-  grid-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
+    grid-gap: 1em;
 }
 
 div.color{
-  display: grid;
-  height: 10em;
-  width: 10em;
-  justify-items: center;
-  align-items: center;
-  border: black solid;
+    display: grid;
+    height: 10em;
+    width: 10em;
+    justify-items: center;
+    align-items: center;
+    border: black solid;
 }
 div.color h3{
-  background-color: white;
-  color: black;
-  padding: 1.5%;
+    background-color: white;
+    color: black;
+    padding: 1.5%;
 }
 h1,h2,h3{
-  font-family: Impact, Charcoal, sans-serif;
-  color: #BF0603;
-  font-weight: lighter;
+    font-family: Impact, Charcoal, sans-serif;
+    color: #BF0603;
+    font-weight: lighter;
 }
 p{
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  color: #080705;
-  font-size: 1.1em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #080705;
+    font-size: 1.1em;
 }
 p.heading{
-  font-family: Impact, Charcoal, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
 }
 h1, p.h1{
-  font-size: 2.5em;
+    font-size: 2.5em;
 }
 h2, p.h2{
-  font-size: 2em;
+    font-size: 2em;
 }
 h3, p.h3{
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 a{
-  text-decoration: none;
+    text-decoration: none;
 }
 em{
-  font-weight: bold;
+    font-weight: bold;
 }
 @media screen and (max-width: 840px) {
-  div.parent{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  article{
-    width: 100%;
-    margin: 0.5%;
-  }
-  aside{
-    width: 100%;
-    margin: 0.5%;
-  }
+    div.parent{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    article{
+        width: 100%;
+        margin: 0.5%;
+    }
+    aside{
+        width: 100%;
+        margin: 0.5%;
+    }
 }
 /* navigation styles start here- ending point of navigation bar is also commented at the end */
 
 @media screen and (min-width: 860px) {
-  label.nav-toggle-label {
-    display: none;
-  }
-  header {
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-  }
-  h1.pizzalogo {
-    grid-column: 2 / 3;
-  }
-  header nav {
-    all: unset;
-    grid-column: 3 / 4;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  nav ul {
-    display: flex;
-  }
-  nav li {
-    margin-left: 3em;
-    margin-bottom: 0;
-  }
-  nav a {
-    opacity: 1;
-    transition: none;
-    position: relative;
-  }
+    label.nav-toggle-label {
+        display: none;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    }
+    h1.pizzalogo {
+        grid-column: 2 / 3;
+    }
+    header nav {
+        all: unset;
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+    }
+    nav a {
+        opacity: 1;
+        transition: none;
+        position: relative;
+    }
 
-  .uniquetop::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background: black;
-    position: absolute;
-    top: -.75em;
-    left: 0;
-    right: 0;
-    transform: scale(0,1);
-    transform-origin: left;
-    transition: transform ease-in-out 300ms;
-  }
-  nav a:hover::before {
-    transform: scale(1,1);
-  }
+    .uniquetop::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background: black;
+        position: absolute;
+        top: -.75em;
+        left: 0;
+        right: 0;
+        transform: scale(0,1);
+        transform-origin: left;
+        transition: transform ease-in-out 300ms;
+    }
+    nav a:hover::before {
+        transform: scale(1,1);
+    }
 }
 
 header {
+<<<<<<< HEAD
+    background: var(--background);
+    text-align: center;
+    z-index: 999;
+    width: 105%;
+    position: fixed;
+    top: 0;
+    margin-left: -10px;
+    margin-right: 5px;
+=======
   background: var(--background);
   text-align: center;
   z-index: 999;
@@ -152,105 +167,106 @@ header {
   margin-left: -10px;
   margin-right: 5px;
   border: 3px solid #7B3E19;
+>>>>>>> fc3552f0afffbbfaf2f1019f88945d20067d200d
 }
 nav {
-  position: absolute;
-  text-align: left;
-  top: 100%;
-  left: 0;
-  background: var(--background);
-  width: 100%;
-  transform: scale(1,0);
-  transform-origin: top;
-  transition: transform 400ms ease-in-out;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: var(--background);
+    width: 100%;
+    transform: scale(1,0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
 }
 nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 nav li {
-  margin-bottom: 1em;
-  margin-left: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
 }
 nav a {
-  color: #7B3E19;
-  font-weight: 800;
-  text-decoration: none;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  opacity: 1;
-  transition: opacity 150ms ease-in-out 150ms;
-  cursor: pointer;
+    color: #7B3E19;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: opacity 150ms ease-in-out 150ms;
+    cursor: pointer;
 }
 nav a:hover {
-  color: #080705;
-  font-weight: bolder;
+    color: #080705;
+    font-weight: bolder;
 }
 .nav-toggle:checked ~ nav {
-  transform: scale(1,1);
+    transform: scale(1,1);
 }
 .nav-toggle {
-  display: none;
+    display: none;
 }
 .nav-toggle-label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 1em;
-  height: 100%;
-  display: flex;
-  align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-  display: block;
-  background: #BF0603;
-  height: 2px;
-  width: 2em;
-  border-radius: 2px;
-  position: relative;
+    display: block;
+    background: #BF0603;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
 }
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-  content: '';
-  position: absolute;
+    content: '';
+    position: absolute;
 }
 .nav-toggle-label span::before {
-  bottom: 7px;
+    bottom: 7px;
 }
 .nav-toggle-label span::after {
-  top: 7px;
+    top: 7px;
 }
 .nav-toggle:checked ~ nav a {
-  opacity: 1;
-  transition: opacity 150ms ease-in-out 150ms;
+    opacity: 1;
+    transition: opacity 150ms ease-in-out 150ms;
 }
 /*creating the dropdown styles for menu and order online tabs on the navigation menu is done here*/
 .dropbtn {
-  border: none;
+    border: none;
 }
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 .dropdown-content {
-  display: none;
-  position: fixed;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 32px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 32px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  transform: none;
-  transition: none;
-  opacity: 1;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transform: none;
+    transition: none;
+    opacity: 1;
 }
 
 /* Change color of dropdown links on hover */
@@ -265,56 +281,58 @@ nav a:hover {
 /* Footer styles start here*/
 
 div.footersec1 {
-  display: flex;
-  padding: 1%;
-  background-color: #bf0603;
-  flex-wrap: wrap;
+    display: flex;
+    padding: 1%;
+    background-color: #bf0603;
+    flex-wrap: wrap;
 }
 .footer-list {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  margin: 1.5%;
-  padding: 0px;
-  margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 1.5%;
+    padding: 0px;
+    margin: 0 auto;
 }
 div.item{
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin: 0px;
-  padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    padding: 2px;
 }
 div.item h4{
-  color: #FFF1D0;
-  padding: 0px;
-  text-align: center;
+    color: #FFF1D0;
+    padding: 0px;
+    text-align: center;
 }
 .fa {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    width: 40px;
+    height:40px;
+    text-align: center;
+    text-decoration: none;
+    magin:5px 7px;
+    border-radius: 50%;
 }
 .fa:hover {
     opacity: 0.7;
 }
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 .fa-instagram {
-  background: #125688;
-  color: white;
+    background: #125688;
+    color: white;
 }
 /*Footer styles end here*/
 
 button{
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 1.1em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.1em;
 }
 .button1 {
     border: none;
@@ -410,24 +428,24 @@ button{
     width:400px;
 }
 div.card{
-  width: 50%;
-  display: grid;
-  border: black solid;
-  background-color: #FFF1D0;
+    width: 50%;
+    display: grid;
+    border: black solid;
+    background-color: #FFF1D0;
 }
 div.cardItem{
-  padding: 2.5%;
+    padding: 2.5%;
 }
 img.cardImage{
-  width: 100%;
+    width: 100%;
 }
 div.cardBar{
-  display: flex;
+    display: flex;
 }
 
 
 @media screen and (max-width: 500px) {
-  div.card{
-    width: 100%;
-  }
+    div.card{
+        width: 100%;
+    }
 }
