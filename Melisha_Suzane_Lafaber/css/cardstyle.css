@@ -3,7 +3,9 @@
 }
 
 body{
-  background-color: #FFF1D0;
+  background-color: #E6C3A6;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 1.1em;
 }
 
 .header {
@@ -26,13 +28,16 @@ body{
 .button {
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: white;
+  background-color: #bf0603;
   font-size: 20px;
-  color: #080705;
+  color: #FFF1D0;
   width: 100px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  border-radius: 10px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 1.1em;
 }
 
 .buttonlist {
@@ -74,8 +79,9 @@ p:hover .extra {
 }
 
 .hide {
-  font-size: 28px;
+  font-size: 24px;
   font-style: italic;
+  color: #7B3E19;
 }
 
 p {
@@ -96,6 +102,10 @@ img.cardImage{
 }
 div.cardBar{
   display: flex;
+}
+
+.link {
+  color: white;
 }
 
 @media screen and (max-width: 450px) {
