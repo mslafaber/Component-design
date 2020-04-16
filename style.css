@@ -8,14 +8,8 @@ body{
     background-color: #BF0603;
 }
 div.parent{
-<<<<<<< HEAD
     display: flex;
     flex-wrap: wrap;
-=======
-  display: flex;
-  flex-wrap: wrap;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
->>>>>>> fc3552f0afffbbfaf2f1019f88945d20067d200d
 }
 article, aside{
     background-color: #FFF1D0;
@@ -148,7 +142,6 @@ em{
 }
 
 header {
-<<<<<<< HEAD
     background: var(--background);
     text-align: center;
     z-index: 999;
@@ -157,17 +150,6 @@ header {
     top: 0;
     margin-left: -10px;
     margin-right: 5px;
-=======
-  background: var(--background);
-  text-align: center;
-  z-index: 999;
-  width: 105%;
-  position: fixed;
-  top: 0;
-  margin-left: -10px;
-  margin-right: 5px;
-  border: 3px solid #7B3E19;
->>>>>>> fc3552f0afffbbfaf2f1019f88945d20067d200d
 }
 nav {
     position: absolute;
