@@ -104,6 +104,7 @@ em{
     grid-column: 2 / 3;
   }
   header nav {
+    all: unset;
     grid-column: 3 / 4;
     display: flex;
     justify-content: flex-end;
@@ -139,6 +140,7 @@ em{
     transform: scale(1,1);
   }
 }
+
 header {
   background: var(--background);
   text-align: center;
@@ -254,6 +256,7 @@ nav a:hover {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
+
 /* navigation styles end here*/
 
 
@@ -419,6 +422,8 @@ img.cardImage{
 div.cardBar{
   display: flex;
 }
+
+
 @media screen and (max-width: 500px) {
   div.card{
     width: 100%;
