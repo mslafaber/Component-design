@@ -284,19 +284,26 @@ nav a:hover {
 
 /* Footer styles start here*/
 
-div.footersec1,
-div.footersec2 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(11em, 2fr));
-  grid-gap: 0px;
+div.footersec1 {
+  display: flex;
   background-color: #080705;
 }
 
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  margin: 0 auto;
+}
+
 div.item{
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  margin: -12px -12px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0px;
+  padding: 2px;
 }
 div.item h4{
   color: #FFF1D0;
@@ -328,3 +335,24 @@ div.item h4{
   color: white;
 }
 /*Footer styles end here*/
+
+/*card styles start here*/
+
+.card {
+  box-shadow: 0 0 20px #080705;
+  width:80%
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  color: white;
+  padding: 2em;
+}
+
+.flex-layout-one {
+  .flex-parent {
+    display: flex;
+  }
+}
+
+/*card styles end here*/
