@@ -320,7 +320,7 @@ div.item h4{
     display: inline-block;
     font-size: 25px;
     font-weight: bold;
-    color: #ffffff;
+    color: #FFF1D0;
     margin: 55px;
     cursor: pointer;
     font-family: sans-serif;
@@ -328,12 +328,12 @@ div.item h4{
     border-radius: 10px;
 }
 .button1:hover{
-    background-color: #f9f9fb;
+    background-color: #FFF1D0;
     color: #bf0603;
     border-radius:10px;
 }
 .button2{ border: none;
-    background-color: #f7f7f7;
+    background-color: #FFF1D0;
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
@@ -350,7 +350,7 @@ div.item h4{
 
 .button2:hover{
     background-color: #bf0603;
-    color:#f7f7f7;
+    color:#FFF1D0;
     border-radius:3px;
 }
 
@@ -364,7 +364,7 @@ div.item h4{
     font-weight: bold;
     width:200px;
     height:100px;
-    color: #ffffff;
+    color: #FFF1D0;
     margin: 55px;
     cursor: pointer;
     font-family: sans-serif;
@@ -376,7 +376,7 @@ div.item h4{
     border-radius: 10px;
 }
 .button3:hover{
-    background-color: white;
+    background-color: #FFF1D0;
     color: #bf0603;
     font-size:45px;
     border-radius:15px;
@@ -385,7 +385,7 @@ div.item h4{
 }
 .button4 {
     border: none;
-    background-color: #fdfdff;
+    background-color: #FFF1D0;
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
@@ -403,7 +403,7 @@ div.item h4{
 }
 .button4:hover{
     background-color: #bf0603;
-    color: #fdfdff;
+    color: #FFF1D0;
     font-size:40px;
     border-radius:15px;
     width:400px;
