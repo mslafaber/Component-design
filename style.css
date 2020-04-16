@@ -461,7 +461,7 @@ div.cardBar{
 }
 */
 /*card styles end here*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   div.card{
     width: 100%;
   }
