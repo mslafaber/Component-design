@@ -441,7 +441,7 @@ img.cardImage{
 div.cardBar{
   display: flex;
 }
-
+/*
 .flex-parent {
     display: flex;
     flex-wrap: wrap;}
@@ -449,12 +449,7 @@ div.cardBar{
     .card {
       width: 100%;
     }
-<<<<<<< HEAD
 }
-=======
-
-
->>>>>>> 386658be230f06fdcfb3e5146c3d58ee600057b6
 .bodymenu {
   background-color: #E6C3A6;
   padding: 2%;
@@ -464,13 +459,10 @@ div.cardBar{
   font-size: 24px;
   color: #FFF1D0;
 }
+*/
 /*card styles end here*/
-
-<<<<<<< HEAD
 @media screen and (max-width: 450px) {
   div.card{
     width: 100%;
   }
 }
-=======
->>>>>>> 386658be230f06fdcfb3e5146c3d58ee600057b6
